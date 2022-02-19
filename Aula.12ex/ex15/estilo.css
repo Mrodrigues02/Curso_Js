@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(158, 159, 160);
+    font: normal 15pt ubuntu;
+}
+
+header {
+    color: rgb(29, 28, 28);
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+input{
+    color:rgb(12, 12, 12);
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    font: normal 10pt ubuntu;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 2px 2px 25px rgba(185, 183, 183, 0.404);
+}
+
+section {
+    background: rgb(29, 29, 29);
+    border-radius: 30px;
+    padding: 20px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.507);
+    color: rgb(197, 202, 204);
+}
+
+footer{
+    color: rgb(37, 36, 36);
+    text-align: center;
+    font-style: italic;
+}

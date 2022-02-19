@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigração</title>
+    <style>
+        body {
+            font: normal 20pt ubuntu;
+            background-color: darkgray;
+            
+        }
+        h1 { color: rgb(96, 110, 114);
+            font: normal 35pt ubuntu; 
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de reconhecimento de nacionalidade!</h1>
+    Digite o país em que você nasceu: <input type="text" id= "txtp">
+    <input type="button" value="Verificar" onclick="nacionalidade()">
+    <div id="res">
+
+    </div>
+    <script>
+        function nacionalidade() {
+        var país = window.document.querySelector('input#txtp').value
+        var res = window.document.querySelector('div#res')
+        res.innerHTML = `<p>Você nasceu no país ${país}.</p>`
+        if (país == 'Brasil'){
+        res.innerHTML += '<p>Você é Brasileiro!</p>'
+        } else {
+            res.innerHTML += '<p>Você é estrangeiro!</p>'
+        }
+        }
+    </script>
+</body>
+</html>

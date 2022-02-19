@@ -1,0 +1,39 @@
+body { background-color: black;
+    font: normal 15pt ubuntu;
+
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: normal 30pt helvetica;
+    text-shadow: 1px 1px 18px #0aa8c3;
+}
+
+section#produto {
+    background: rgba(44, 41, 41, 0.808);
+    border-radius:  30px;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #0aa7c3;
+    text-align: center;
+    color:aliceblue;
+}
+
+input.button{
+    background: rgba(168, 238, 6, 0.911);
+    border-radius:  25px;
+    padding: 10px;
+    width: 120px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(168, 238, 6, 0.185);
+    text-align: center;
+    cursor: pointer;
+    font: normal 13pt ubuntu;
+}
+footer {
+    color: rgb(255, 251, 251);
+    text-align: center;
+    font-style: italic;
+}

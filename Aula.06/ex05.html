@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM!</title>
+    <style>
+        body { background: lightslategray;
+            color: white;
+            font:normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM!</h1>
+    <p id='p1'>Aqui vai o resultado</p>
+    <p id='p2'>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div>Clique em min</div>
+    <div>Antes eu era mais louco que o Batman.</div>
+    <script>
+      var d = window.document.querySelector('p#p1')
+      var o = window.document.querySelector('p#p2')
+      var fundo = window.document.body
+      d.style.color = 'Black'
+      o.style.color = 'red'
+      fundo.style.background = 'Pink'
+    </script>
+</body>
+</html>
